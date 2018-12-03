@@ -1,0 +1,3 @@
+$ git init Use for initialize a git repository  
+pass arguments folder mane for create a new folder 
+$ git init path name 

@@ -17,3 +17,4 @@ class polygon_two_sides{
 
 var square = new polygon_two_sides(2,2);
 console.log( square.getArea() );
+console.log(square.hasOwnProperty( "getArea") )
