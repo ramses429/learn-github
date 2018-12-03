@@ -1,3 +1,9 @@
 $ git init Use for initialize a git repository  
 pass arguments folder mane for create a new folder 
 $ git init path name 
+
+For add in the staging area 
+$ git add . 
+
+For add in to the repository use .git  
+$ git commit -m 'put the message that appear in the log file'
