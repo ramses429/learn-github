@@ -2,8 +2,15 @@ $ git init Use for initialize a git repository
 pass arguments folder mane for create a new folder 
 $ git init path name 
 
-For add in the staging area 
-$ git add . 
-
+For add in the staging area for all files
+$ git add .  
+For one files use 
+$ git add <file>
+If you need to leave the add use 
+$ git rm --cached <file>
+If you want to delete for staging and working directory  
+$ git rm -f <file>  
 For add in to the repository use .git  
 $ git commit -m 'put the message that appear in the log file'
+
+
