@@ -13,4 +13,5 @@ $ git rm -f <file>
 For add in to the repository use .git  
 $ git commit -m 'put the message that appear in the log file'
 
-
+add one change again in the git repo
+$ git commit --ammed
