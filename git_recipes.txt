@@ -15,3 +15,6 @@ $ git commit -m 'put the message that appear in the log file'
 
 add one change again in the git repo
 $ git commit --ammed
+
+For use Tags 
+$ git tag -a "name of version" -m 'name of tag'
