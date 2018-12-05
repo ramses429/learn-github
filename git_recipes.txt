@@ -17,4 +17,14 @@ add one change again in the git repo
 $ git commit --ammed
 
 For use Tags 
-$ git tag -a "name of version" -m 'name of tag'
+$ git tag -a "name of version" -m 'name of tag' code_has1
+use this command many times you put many tags
+Delete tags 
+$ git tag -d name_of_tag
+Rename tags
+$ git tag -f -a "name of version" -m 'name of tag' code_has1
+
+
+
+++++++++++++++++git pro++++++++++++++
+very useful 
