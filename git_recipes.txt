@@ -41,3 +41,7 @@ when need help two command  for show options
 $man git add
 $git add -h
 $ git commit -a -m 'added new benchmarks' use only one command
+
+$ git rm file 
+$ git reset HEAD
+$ git checkout -- file
