@@ -33,6 +33,11 @@ $ git diff
 tree types of reset 
 --soft --mixed --hard
 
+delete commits 
+git reset --soft SHA-1
+
+
+
 ++++++++++++++++git pro++++++++++++++
 very useful 
 vim ~/.gitconfig configuration git 
@@ -45,3 +50,9 @@ $ git commit -a -m 'added new benchmarks' use only one command
 $ git rm file 
 $ git reset HEAD
 $ git checkout .
+
+Use the mv and rm with git 
+$ git rm 
+$ git mv
+use git log -p for show changes  
+show page 47 , 49 know the different formats for use log   
