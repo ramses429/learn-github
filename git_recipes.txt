@@ -36,7 +36,10 @@ tree types of reset
 delete commits 
 git reset --soft SHA-1
 
-
+create branch 
+$ git branch "name of the branch"
+Rename branch
+$ git branch [old name][new name]
 
 ++++++++++++++++git pro++++++++++++++
 very useful 
