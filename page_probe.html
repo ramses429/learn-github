@@ -5,32 +5,50 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<title>Page_probe</title>
-		
+
 		<style type="text/css" media="screen">
-			
+
 			body{
-				
+
 				margin : 0 ;
-				border : 10px solid #192b36  
-				
+				border : 10px solid #192b36
+
 			}
-			
+
 			img {
-				
+
 				max-width : 100%;
 				vertical-align : top ;
-				
+
 			}
-			
+
+			img#responsive{
+
+				max-width : 0%;
+
+
+			}
+
+			@media screen and (max-width : 768px){
+
+				img#responsive{
+
+					max-width : 100%;
+
+				}
+
+			}
+
 		</style>
-		
+
 	</head>
 	<body>
-		
+
 		<img src="header_1.jpg" alt=""/>
 		<img src="hero_1.jpg" alt=""/>
 		<img src="acustica_1.jpg" alt=""/>
-		<img src="banner-6.jpg" alt=""/>
-		
+		<img src="invie-responsive.png" alt = "" id = "responsive"/>
+
+
 	</body>
 </html>
