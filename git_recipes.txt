@@ -44,4 +44,4 @@ $ git commit -a -m 'added new benchmarks' use only one command
 
 $ git rm file 
 $ git reset HEAD
-$ git checkout -- file
+$ git checkout .
